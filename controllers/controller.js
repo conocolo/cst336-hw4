@@ -10,6 +10,7 @@ exports.dbResponder = (req, res) => {
     fs.readFile('public/text/' + req.params.db + '.txt', 'utf8', (error, data) => {
         res.render('pages/db', {fakeName: fake.name.lastName(),
                                       db: titleCase(req.params.db),
-                                    text: data});
+                                    text: data,
+                                    nadb: req.params.db});
     });
 }
