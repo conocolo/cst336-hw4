@@ -1,0 +1,2 @@
+Athena is a quick and easy to setup given that the data that you want to query is already in S3. 
+There is no need configure how many nodes you want your database setup to have, because Athena works on a serverless model with no dedicated hardware needed. For general analytics, it provides a quick and painless way to setup an infrastructure, but performance wise falls short of Redshift when working with big data. For the ease of use and setup, Athena is a notable choice for companies looking to hit the ground running.

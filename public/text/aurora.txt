@@ -1,0 +1,2 @@
+Aurora is an OLTP type of database solution from AWS. It is a relational database compatible with MySQL and PostgreSQL.
+Its focus is on the speed of writing transactions and updating rows quickly and with the ability to scale, it delivers high performance up to 5x faster than traditional MySQL databases. One downside with Aurora is that compared to other database solutions, it has a lower read performance due to being focused as a transactional database. Main uses are with applications where users are constantly writing and updating new rows of data into the database.
